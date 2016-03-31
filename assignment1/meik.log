@@ -1,0 +1,136 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.20)  29 MAR 2016 18:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**meik
+(./meik
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 p
+     dflatex
+? 
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+)
+*
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--0
+[] 
+ []
+
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Interruption.
+<*> 
+    
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? 
+(Please type a command or say `\end')
+*^^[^^[^^[
+! Text line contains an invalid character.
+<*> ^^[
+       ^^[^^[
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[^^[^^[^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? 
+! Text line contains an invalid character.
+<*> ^^[^^[
+          ^^[
+? 
+! Text line contains an invalid character.
+<*> ^^[^^[^^[
+             
+? 
+
+*^^[
+! Text line contains an invalid character.
+<*> ^^[
+       
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? 
+! Emergency stop.
+<*> ^^[
+       
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 494985
+ 113 string characters out of 6180356
+ 46094 words of memory out of 5000000
+ 3322 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 5i,0n,4p,16b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
