@@ -20,8 +20,6 @@ figure;
 plot(time, rx_power_dBm_smallScaleFading,'b'); hold on
 plot(time,rx_power_dBm,'g')
 plot(time,rx_power_dBm_largeScaleFading,'r' ); hold on
-ylabel 'Power [dBm]'
-xlabel 'Time [s]'
 legend('Large scale fading', 'Small scale fading','Original measurements', 'Large scale fading' );
 
 
@@ -59,20 +57,17 @@ Fc = 859.6e6; % Carrier Frequency
 
 pdp = mean(abs(ifft(H2,50)).^2,2);
 figure; 
-plot(linspace(0,222e-9 * 50,50), 10*log10(pdp))
+plot(linspace(0,222e-9,50), 10*log10(pdp))
 title 'Power delay profile' 
 
 
 Pm = sum(pdp); % total power
 
 
-tau = linspace(0,222e-9 * 50,50);
+tau = linspace(0,222e-9,50);
 
 
 tmp = 0;
-
-Tm2= sum(tau*pdp)/Pm;
-
 for i =1:length(pdp)
     tmp = tmp + pdp(i) *tau(i);
 end
