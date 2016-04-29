@@ -1,3 +1,4 @@
+
 % Assignment 1
 % Henning Schei
 close all;
@@ -32,7 +33,7 @@ plot(d1,power(rssi1/10,10));
 % Problem 3.
 c0  = 3e8;
 d = d1;
-lamb = Fc/c0; %meters
+lamb = power((Fc/c0),1); %meters
 E1 = lamb/(4*pi); % in meters
 E1_km  = E1*1000;
 
