@@ -39,14 +39,38 @@ fprintf('Variance: %f [dB]\n Mean: %f [dB]\n', var(rx_power_dBm_largeScaleFading
 
 %% Task 3
 figure;
-histfit(10.^(rx_power_dBm_smallScaleFading./20 ),100,'nakagami');
+p1=histfit(10.^(rx_power_dBm_smallScaleFading./20 ),1000,'nakagami');
 title 'Nakagami distribution'
 hold on
-histfit(10.^(rx_power_dBm_smallScaleFading./20 ) ,100,'rician');
+p2=histfit(10.^(rx_power_dBm_smallScaleFading./20 ) ,1000,'rician');
+%set(h(1),'facecolor','g'); set(h(2),'color','m')
 title 'Rician distribution'
 hold on
-histfit(10.^(rx_power_dBm_smallScaleFading./20 ),100,'rayleigh');
+p3= histfit(10.^(rx_power_dBm_smallScaleFading./20 ),1000,'rayleigh');
+
+
+set(p1(1),'facecolor','b'); set(p1(2),'color','m');
+set(p2(1),'facecolor','r'); set(p2(2),'color','b');
+set(p3(1),'facecolor','b'); set(p3(2),'color','c');
+uistack(p1(2), 'top');
+%uistack(p2(2), 'top');
+uistack(p3(2),'top')
+
+
+%uistack(p1)
+
+legend ([p1(1) ,p3(2), p2(2), p1(2)], {'Small scale fading',  'rician', 'nakagami','rayleigh'} );
+
+xlabel('Time (s)'); ylabel('Power (dBm)'); title('Task 3 plot');
+
+
+
+
+
+
 title 'Rayleigh distribution'
+legend('Nakagami', 'Rician', 'Rayleigh');
+
 hold off;
 
 %% Task 4
@@ -89,6 +113,8 @@ S = sqrt( tmp2/Pm - power(Tm,2)); % Average delay spread
 
 fprintf('Average delay spread %e ns\n', S);
 fprintf('Average mean delay %e ns\n', Tm); 
+
+%% 
 
 
 
